@@ -38,6 +38,9 @@ h = 0.1
 x_values = []
 y_values = []
 
+x_values.append(x_0)
+y_values.append(y_0)
+
 # Calculate solution
 for i in range(100):
     (x_0 ,y_0) = runge_kutta(f, x_0, y_0, h)
