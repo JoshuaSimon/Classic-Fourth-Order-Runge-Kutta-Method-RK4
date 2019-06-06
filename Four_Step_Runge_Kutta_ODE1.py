@@ -51,8 +51,8 @@ if __name__=="__main__":
     y = y_0
     for _ in range(100):
         x, y = runge_kutta(f, x, y, h)
-        x_values.append(x_0)
-        y_values.append(y_0)
+        x_values.append(x)
+        y_values.append(y)
         print(x, y)
 
     # Plot solution
